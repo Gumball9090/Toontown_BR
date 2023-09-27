@@ -1,11 +1,6 @@
 import string
 import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
-from toontown.catalog import CatalogAccessoryItemGlobals
-from otp.otpbase import OTPLocalizer as OL
-OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
-for key in OL.SpeedChatStaticTextCommon.iterkeys():
-    OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
 ExtraKeySanityCheck = 'Ignore-me'
 
 commitmantst = 'kptmptest - removable'
